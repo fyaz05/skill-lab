@@ -1,4 +1,4 @@
-# 📚 Study Skills for Claude
+# 📚 Student Lab
 
 A collection of Claude skills designed for students who need to learn fast and score high.
 
@@ -45,6 +45,40 @@ A collection of Claude skills designed for students who need to learn fast and s
 
 ---
 
+### 🎨 [presentation-designer](./presentation-designer/)
+
+**Turn any topic or content into a cinematic, art-directed slide deck.**
+
+| Feature | Detail |
+|---|---|
+| **What it does** | Produces a complete design system + slide-by-slide deck in markdown — precise enough to implement in Figma, Keynote, PowerPoint, or Google Slides |
+| **Design system** | Full color palette (hex values), typography scale, layout primitives, whitespace strategy, and atmospheric depth — all defined before a single slide is built |
+| **Aesthetic tones** | Commits to one bold tone per deck: brutalist, dark editorial, luxury minimal, retro-futuristic, art deco, Swiss, and more |
+| **Narrative structure** | Every deck has a mapped arc — provocative opening, logical middle, resolved closing — never just a stack of slides |
+| **No generic output** | Anti-patterns enforced: no equal-column splits, no three-icon cards, no flat backgrounds, no default chart styling |
+| **Fully specified visuals** | Every slide has a precise visual description (subject, angle, lighting, mood, treatment) — no "relevant image" placeholders |
+
+**Trigger phrases:** "make slides", "create a presentation", "build a deck", "design a pitch", "make a PPT", "help me present", "slide deck for"
+
+<details>
+<summary><strong>Example usage</strong></summary>
+
+**Input:** Paste your content or describe your topic, then say:
+
+> Make a presentation on India's EdTech market for an investor pitch
+
+**Output:** A full design-spec deck with:
+- 🎨 Complete design system (colors, fonts, primitives, whitespace rules)
+- 🖼️ Art-directed visual direction for every slide
+- 📐 Distinct layout on every slide — no two adjacent slides share the same structure
+- 📊 Data slides with styled, highlighted charts
+- 🎯 Narrative arc from provocative opener to resolved close
+- ✅ Pre-delivery checklist audit confirming every slide passes quality standards
+
+</details>
+
+---
+
 ## 🚀 Quick Start
 
 ### Option 1: Claude.ai (Recommended)
@@ -60,7 +94,7 @@ A collection of Claude skills designed for students who need to learn fast and s
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/fyaz05/study-skills.git
+   git clone https://github.com/fyaz05/student-lab.git
    ```
 2. Place the skill folder in your Claude Code skills directory
 3. The skill activates automatically when relevant
@@ -77,8 +111,9 @@ See [Skills API Quickstart](https://docs.anthropic.com/en/docs/agents-and-tools/
 | Skill | Status | Description |
 |---|---|---|
 | `exam-notes` | ✅ Ready | One-evening exam prep notes from any material |
+| `presentation-designer` | ✅ Ready | Cinematic, art-directed slide decks with full design systems |
 
-*Have a suggestion?* [Open an issue](https://github.com/fyaz05/study-skills/issues)
+*Have a suggestion?* [Open an issue](https://github.com/fyaz05/student-lab/issues)
 
 ---
 
