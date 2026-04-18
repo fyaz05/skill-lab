@@ -94,7 +94,7 @@ A collection of Claude skills designed for students who need to learn fast and s
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/fyaz05/student-lab.git
+   git clone https://github.com/fyaz05/skill-lab.git
    ```
 2. Place the skill folder in your Claude Code skills directory
 3. The skill activates automatically when relevant
@@ -113,7 +113,7 @@ See [Skills API Quickstart](https://docs.anthropic.com/en/docs/agents-and-tools/
 | `exam-notes` | ✅ Ready | One-evening exam prep notes from any material |
 | `presentation-designer` | ✅ Ready | Cinematic, art-directed slide decks with full design systems |
 
-*Have a suggestion?* [Open an issue](https://github.com/fyaz05/student-lab/issues)
+*Have a suggestion?* [Open an issue](https://github.com/fyaz05/skill-lab/issues)
 
 ---
 

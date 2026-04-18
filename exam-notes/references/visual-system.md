@@ -1,51 +1,58 @@
-# Visual System
+# Light Visual System
 
-## Guiding Principles
-- Text-first — decoration supports readability, never overwhelms
-- Prefer emojis in headers and section labels; use symbols (→, ⇄, vs.) for
-  relationships and flags in body content
-- Avoid mechanical repetition — don't start every single bullet with an emoji;
-  vary placement naturally
-- Every emoji below has a fixed meaning. Never use emojis outside this table.
+Use symbols only when they make the notes easier to scan.
+Plain text is always allowed.
+Do not force symbols into every topic.
+No symbol is mandatory.
 
-## Emoji Table
+---
 
-| Symbol | Meaning |
+## Core Rule
+
+Use symbols sparingly.
+If the notes read better without symbols, skip them.
+
+---
+
+## Recommended Symbols
+
+| Symbol | Use |
 |---|---|
-| 📌 | Core definition, must-know |
-| 💡 | Analogy, intuition, added context |
-| 🧠 | Memory hook, mnemonic |
-| ⚡ | Key insight / why it matters |
-| 🎯 | High exam probability, exam angle |
-| ⚠️ | Mistake, trap, warning |
-| 🛑 | Exception, edge case, limitation |
-| 🔗 | Connection to another topic |
-| 📖 | Source example |
-| 📝 | Formula or calculation |
-| 🔴 | Critical importance |
-| 🟡 | Important |
-| 🟢 | Good to know |
-| ❌ | Wrong thinking (in ❌→✅ pairs) |
-| ✅ | Correct thinking (in ❌→✅ pairs) |
-| ➡️ | Process step, cause → effect |
-| 📐 | Diagram / figure translation |
-| 📊 | Comparison table |
-| 🔷 | Topic header |
-| 🗺️ | Roadmap layer |
-| 🏗️ | Build-Up layer |
-| 🏁 | Speed Review layer |
-| 🌍 | Real-world example (added) |
-| ⬅️ | Backward connection ("builds on") |
-| ↔️ | Cross-connection ("compare with") |
+| 📌 | key definition or must-know point |
+| 📝 | formula, rule, or calculation |
+| ⚠️ | trap, mistake, exception, or warning |
+| 🎯 | exam-focused point |
+| 💡 | simple intuition or helpful analogy |
+| 🧠 | short memory hook |
+| 🔗 | connection to another topic |
 
-## Depth Scaling Table
+---
 
-| Element | 🔴 Critical | 🟡 Important | 🟢 Good to Know |
-|---|---|---|---|
-| Definition | Full, exam-ready | Full | Brief (one line) |
-| Analogy | Required | If natural | Skip |
-| Memory Hook | Required | Skip | Skip |
-| Key Insight / Why It Matters | Required | If present | Skip |
-| Exam Angle | Required | Brief | Skip |
-| Trap / Mistake | If any exist | If any exist | Skip |
-| Exam Questions | 2-3 | 1-2 | 0-1 |
+## Usage Guidance
+
+- do not start every bullet with a symbol
+- use symbols for scanning, not decoration
+- use the same symbol consistently
+- if a section is already clear, do not add symbols just because you can
+- most topics need zero to a few symbols, not symbols on every line
+
+---
+
+## Good Pattern
+
+```md
+## Thermodynamics
+- 📌 **Entropy** (measure of disorder or energy spreading)
+- Second law: entropy of an isolated system tends to increase
+- ⚠️ Entropy is not simply "chaos" in every context
+- Exam line: entropy helps explain the natural direction of many processes
+```
+
+---
+
+## Bad Pattern
+
+- too many symbols in every line
+- different symbols used for the same purpose
+- symbols replacing clear writing
+- decorative use with no scanning benefit
